@@ -4,7 +4,6 @@ Um utilitário simples em Java desenvolvido para auxiliar na contabilidade bási
 
 ---
 
-### Funcionalidades
 
 - **Cálculo de Renda Bruta:** Exibe a lista de itens vendidos (chicletes, doces, sorvetes, chocolates, donuts e panquecas) e calcula a receita total acumulada.
 - **Entrada de Despesas:** Permite ao usuário informar os custos com equipe (*staff expenses*) e outras despesas operacionais (*other expenses*).
@@ -12,7 +11,6 @@ Um utilitário simples em Java desenvolvido para auxiliar na contabilidade bási
 
 ---
 
-### Tecnologias e Ferramentas
 
 - **Linguagem:** Java 11+
 - **Gerenciador de Build:** Gradle
@@ -20,19 +18,15 @@ Um utilitário simples em Java desenvolvido para auxiliar na contabilidade bási
 
 ---
 
-### Estrutura do Código
 
 O ponto de entrada da aplicação está localizado em:
 `My First Project with Java/task/src/calculator/Main.java`
 
 ---
 
-### Como Executar
 
-#### Pré-requisitos
 - JDK 11 ou superior instalado e configurado no `PATH`.
 
-#### Opção 1: Executando diretamente com o compilador Java
 Navegue até o diretório do código-fonte e execute:
 
 ```bash
@@ -41,7 +35,6 @@ javac calculator/Main.java
 java calculator.Main
 ```
 
-#### Opção 2: Executando via Gradle
 Na raiz do projeto:
 
 - **Linux / macOS:**
@@ -55,7 +48,6 @@ Na raiz do projeto:
 
 ---
 
-### Exemplo de Execução
 
 ```text
 Earned amount:
@@ -75,5 +67,4 @@ Net income: $4205.0
 
 ---
 
-### Licença
 Este projeto foi desenvolvido para fins educacionais e de prática em programação Java.
